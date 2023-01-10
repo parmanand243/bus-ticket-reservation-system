@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>Ticket Reservation System</title>
@@ -34,11 +34,9 @@
         <li class="nav_btns"> <a href="#price">Price & Plan</a> </li>
         <li class="nav_btns"> <a href="#our-agent">Our Agent</a> </li>
         <li class="nav_btns"> <a href="#contactus">Contact us</a> </li>
-
-
       </ul>
     </div>
-    <div type="button" class="login_btn">Log in</div>
+    <div type="button" class="login_btn"><a href="loginform.html">Log in</a> </div>
 
   </div>
   <div class="mobile_navbar">
@@ -57,6 +55,7 @@
         <li> <a href="#price">Price & Plan</a> </li>
         <li> <a href="#our-agent">Our Agent</a> </li>
         <li> <a href="#contactus">Contact us</a> </li>
+        <li> <a href="loginform.html">Login</a> </li>
       </ul>
     </div>
 
@@ -97,7 +96,7 @@
             <div class="feature-img" data-aos="fade-right" data-aos-duration="1000"  data-aos-once="false" data-aos-easing="ease-in-out"  data-aos-delay="2000">
               <i class="fa-solid fa-laptop"></i>
               <h3>Fully comaptible</h3>
-              <p>XXXXXXXXXXXXXXXXXX</p>
+              <p>XXXXXXXXXX</p>
             </div>
           </div>
         </div>
@@ -106,7 +105,7 @@
             <div class="feature-img" data-aos="fade-right" data-aos-duration="1000"  data-aos-once="false" data-aos-easing="ease-in-out"  data-aos-delay="1500">
               <i class="fa-solid fa-cloud"></i>
               <h3>Fully AC</h3>
-              <p>XXXXXXXXXXXXXXXXXX</p>
+              <p>XXXXXXXXXX</p>
             </div>
           </div>
         </div>
@@ -115,7 +114,7 @@
             <div class="feature-img" data-aos="fade-right" data-aos-duration="1000"  data-aos-once="false" data-aos-easing="ease-in-out"  data-aos-delay="1000">
               <i class="fa-solid fa-heart"></i>
               <h3>Clean & Steady</h3>
-              <p>XXXXXXXXXXXXXXXXXX</p>
+              <p>XXXXXXXXXX</p>
             </div>
           </div>
         </div>
@@ -124,7 +123,7 @@
             <div class="feature-img" data-aos="fade-right" data-aos-duration="1000"  data-aos-once="false" data-aos-easing="ease-in-out"  data-aos-delay="500">
               <i class="fa-solid fa-money-bill"></i>
               <h3>Less Cost</h3>
-              <p>XXXXXXXXXXXXXXXXXX</p>
+              <p>XXXXXXXXXX</p>
             </div>
           </div>
         </div>
@@ -344,7 +343,7 @@
       </div>
   </div>
 </div>
-
+</div>
 <!-- contact us  -->
 <div id="contactus">
   <div class="container6">
@@ -355,93 +354,33 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-8 form">
-        <p class="forhead">Form</p>
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="inputEmail4"
-              required
-            />
+      <div class="col-md-4 form">
+        <p class="forhead">Quires</p>
+        <form action="">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
-          <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Password</label>
-            <input
-              type="password"
-              class="form-control"
-              id="inputPassword4"
-              required
-            />
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
           </div>
-          <div class="col-12">
-            <label for="inputAddress" class="form-label">Address</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputAddress"
-              placeholder="1234 Main St"
-              required
-            />
+          <div class="md-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
           </div>
-          <div class="col-12">
-            <label for="inputAddress2" class="form-label">Address 2</label>
-            <input
-              type="text"
-              class="form-control"
-              id="inputAddress2"
-              placeholder="Apartment, studio, or floor"
-            />
-          </div>
-          <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity" />
-          </div>
-          <div class="col-md-4">
-            <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select" required>
-              <option selected>Choose...</option>
-              <option>madesh</option>
-              <option>pradesh</option>
-              <option>gandaki</option>
-              <option>karnali</option>
-              <option>ktm</option>
-            </select>
-          </div>
-          <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip" />
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                id="gridCheck"
-              />
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
-          </div>
+          
         </form>
+       
       </div>
-      <div class="col-md-4">
+      <div class="col-md-8">
         <div class="iframe">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.604524374932!2d84.8843069149003!3d27.011057283085375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3993559a7f1c6681%3A0xa6feee1167b81670!2sBus%20Park%20office!5e0!3m2!1sen!2snp!4v1673233691239!5m2!1sen!2snp" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.604524374932!2d84.8843069149003!3d27.011057283085375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3993559a7f1c6681%3A0xa6feee1167b81670!2sBus%20Park%20office!5e0!3m2!1sen!2snp!4v1673233691239!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
   </div>
 
   </div>
-</div>
-
 <!-- footer -->
 
 <div class="container7 footer">
@@ -482,7 +421,7 @@
   </div>
 </div>
 
-<script src="script.js"></script>
+<script src="/js/script.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({
