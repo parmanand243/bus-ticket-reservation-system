@@ -11,6 +11,9 @@ signup.addEventListener("click",()=>{
     }
 
 })
+
+
+
         const showpass = document.getElementById('showpass');
         const pass = document.getElementById('password');
         const C_pass = document.getElementById('c-password');
